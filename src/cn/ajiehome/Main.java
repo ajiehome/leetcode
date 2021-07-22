@@ -1,5 +1,7 @@
 package cn.ajiehome;
 
+import cn.ajiehome.easily.Palindrome;
+
 /**
  * @Author: JIE
  * @Date: 2021/6/22 20:03
@@ -9,7 +11,6 @@ package cn.ajiehome;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        // System.out.println(StringRemoveInt.solution("-91283472332"));
-        System.out.println((int)'0');
+        System.out.println(Palindrome.solution(101));
     }
 }
