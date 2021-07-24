@@ -1,6 +1,6 @@
 package cn.ajiehome;
 
-import cn.ajiehome.easily.Palindrome;
+import cn.ajiehome.difficulty.RegularMatch;
 
 /**
  * @Author: JIE
@@ -11,6 +11,8 @@ import cn.ajiehome.easily.Palindrome;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        System.out.println(Palindrome.solution(101));
+
+
+        System.out.println(RegularMatch.solution("aaa", "ab*a*c*a"));
     }
 }
