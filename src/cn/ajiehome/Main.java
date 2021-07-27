@@ -1,6 +1,6 @@
 package cn.ajiehome;
 
-import cn.ajiehome.difficulty.RegularMatch;
+import cn.ajiehome.secondary.WaterHoldContainer;
 
 /**
  * @Author: JIE
@@ -11,8 +11,6 @@ import cn.ajiehome.difficulty.RegularMatch;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-
-
-        System.out.println(RegularMatch.solution("aaa", "ab*a*c*a"));
+        System.out.println(WaterHoldContainer.solution(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
     }
 }

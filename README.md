@@ -9,5 +9,6 @@
 - LongPalindrome: 最长回文子串，给你一个字符串 s，找到 s 中最长回文子串。
 - ZShapePrint:  Z 字形变换，将一个给定字符串 s 根据给定的行数 numRows ，以从上往下、从左到右进行 Z 字形排列。
 - StringRemoveInt: 字符串转换整数
+- WaterHoldContainer: 盛最多水的容器
 ## difficulty-困难
 - Median: 寻找两个正序数组的中位数，给定两个大小分别为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。请你找出并返回这两个正序数组的 中位数 。
