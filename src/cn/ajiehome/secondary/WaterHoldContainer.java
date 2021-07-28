@@ -8,7 +8,6 @@ package cn.ajiehome.secondary;
  *         给予一个数组，找出数组中两个数能组成的最大水容量。
  * }
  */
-
 public class WaterHoldContainer {
     public static int solution(int[] height){
         int startIndex = 0,endIndex = height.length -1,temp = 0;

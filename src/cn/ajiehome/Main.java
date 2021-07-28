@@ -1,6 +1,6 @@
 package cn.ajiehome;
 
-import cn.ajiehome.secondary.WaterHoldContainer;
+import cn.ajiehome.secondary.IntegerToRome;
 
 /**
  * @Author: JIE
@@ -9,8 +9,7 @@ import cn.ajiehome.secondary.WaterHoldContainer;
  * @Description: {}
  */
 public class Main {
-
     public static void main(String[] args) throws Exception {
-        System.out.println(WaterHoldContainer.solution(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
+        System.out.println(IntegerToRome.solution(3000));
     }
 }
