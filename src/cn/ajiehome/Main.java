@@ -1,6 +1,6 @@
 package cn.ajiehome;
 
-import cn.ajiehome.secondary.IntegerToRome;
+import cn.ajiehome.easily.RomeToInt;
 
 /**
  * @Author: JIE
@@ -10,6 +10,6 @@ import cn.ajiehome.secondary.IntegerToRome;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(IntegerToRome.solution(3000));
+        System.out.println(RomeToInt.solution("III"));
     }
 }
